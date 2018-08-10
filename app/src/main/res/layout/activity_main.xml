@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.a171y015.testsqlite.MainActivity">
+
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert(冷麺)"
+     />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUpdate"
+            android:text="Update" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/lblupd"
+            android:text="更新する番号を指定"
+            android:layout_margin="10dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/upd_num"
+            android:background="#f0f0f0"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDelete"
+            android:text="Delete" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/lbldel"
+            android:text="削除する番号を指定"
+            android:layout_margin="10dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/del_num"
+            android:background="#f0f0f0"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonList"
+        android:text="リスト" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="表示"
+        android:id="@+id/buttonQuery"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonwarp"
+        android:text="Insert(入力)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelList"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
